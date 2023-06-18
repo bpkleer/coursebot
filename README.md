@@ -1,35 +1,28 @@
-# Telegram-Bot für Studierendenfragen
+# Kurs-Bot für Studierendenfragen
 
 ## Beta-Phase (v0.2)
 
 ## Projektziel
-Ziel ist es für Studierende eine einfache Möglichkeit zu entwickeln, so dass diese einfach und schnell gesuchte Informationen erlangen können bzw. an den richtigen Ort weitergeleitet werden. Es können leicht Veränderungen vorgenommen werden.
+Ziel ist es für Studierende eine einfache Möglichkeit zu entwickeln, so dass diese einfach und schnell gesuchte Informationen aus dem Syllabus zu erhalten.
 
 Zur besseren Bearbeitung sind die Keywords in `.csv`-Dateien gespeichert (Ordner `keys`) und die Antworten zu den Keywords in `.txt`-Dateien (Ordner `texts`). In der `.csv`-Datei ist die erste Zeile zur Identifikation der Datei (für die Keywordsuche, siehe weiter unten). Diese heißt wie das jeweilige R-Objekt. Beim Verändern daran denken, dass die Dateien mit einer leeren Zeile enden müssen. Im Text können emojis entweder direkt (z.B. 😃) oder als Byte eingefügt werden (z.B. `\x31\xE2\x83\xA3`).
 
 Eine Übersicht der *Keywords* zu Textdateien findet sich hier:
 | search aim   | keywords |  text |
 |:----------|:-------------|:------|
-| Simone Abendschön |  `simone.csv` | `simone.txt` |
-| Mical Gerezgiher | `mical.csv` | `mical.txt` |
-| Patricia Kamper | `patricia.csv` | `patricia.txt` |
-| Philipp Kleer | `philipp.csv`   |  `philipp.txt` |
-| Tim Schmidt | `tim.csv` | `tim.txt` | 
-| Angelika Wicke | `angelika.csv` | `angelika.txt` |
-| Alles rund um Prüfungen | `exam.csv` | `exam.txt` |
+| Prüfung im Kurs | `exam.csv` | `exam.txt` |
 | Sprechstunden | `office.csv`| `office.txt` |
-| Alles zur Thesis | `thesis.csv` | `thesis.txt` |
-| Prüfungsanmeldung | `registration.csv` | `registration.txt` |
-| Präsenzprüfung | `presence.csv` | `presence.txt` |
-| Prüfungsort/-zeit | `place.csv` | `place.txt` |
-| Online-Prüfung | `online.csv` | `online.txt` |
+| Anmeldung | `registration.csv` | `registration.txt` |
+| Kursort/-zeit | `place.csv` | `place.txt` |
 | Attest/Krankheit | `ill.csv` | `ill.txt` |
 | Prüfungswiederholung | `fail.csv` | `fail.txt` |
-| schriftliche Arbeit | `written.csv` | `written.txt` | 
 | Rund um Note | `grade.csv` | `grade.txt` |
 | Vorleistung | `preexam.csv` | `preexam.txt` |
-| Tutorium (Statistik) | `tut.csv` | `tut.txt` |
-| Lehrangebot | `teaching.csv` | `teaching.txt` |
+| Sorry (keine Antwort) |  | `sorry.txt` |
+| Start |  | `start.txt` |
+| Unknown command |  | `unknown.txt` |
+
+
 
 ## Erstellen neuer Suchbegriffe und Antworten
 Dazu muss zuerst eine `.csv`-Datei mit den Keywords im Ordner `keys` abgelegt werden und ein Antwort-Text als `.txt`-Datei im Ordner `texts`.
