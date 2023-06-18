@@ -1,0 +1,11 @@
+Du möchtest Informationen zu 1️⃣ Prüfungen bekommen. Welche Information benötigst du?
+
+🚨 Wie melde ich mich zur Prüfung an?
+
+😷 Was mache ich, wenn ich krank bin?
+
+❓ Welche Note habe ich in der Prüfung?
+
+❌ Ich bin durchgefallen. Was nun?
+
+🔃 Mit /start kommst du wieder an den Anfang zurück!

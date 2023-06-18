@@ -1,0 +1,7 @@
+Du möchtest Informationen zur 📅 *Sprechstunde* haben. Hier sind sie:
+
+*Alle* Sprechstunden-Termine werden *online* vergeben. Hier kannst du einen Termin in der [Sprechstunde von Philipp Kleer](https://ilias.uni-giessen.de/ilias/goto.php?target=usr_172921&client_id=JLUG) buchen. Weitere ℹ Informationen sowie 📨 Kontaktdaten zur Person findest du auf der [JLU-Website](https://www.uni-giessen.de/de/fbz/fb03/institutefb03/ifp/Lehrende_Team/Mitarbeiter_innen/kleer) oder [hier](https://www.bpkleer.de).
+
+Wenn du zu den eingetragenen Terminen nicht kannst, schreibe eine E-Mail an philipp.kleer@sowi.uni-giessen.de und schlage **3 mögliche Termine** vor. Bitte beachte, dass ein Terminwunsch **nicht immer** passt.
+
+🔃 Mit /start kommst du wieder an den Anfang zurück!

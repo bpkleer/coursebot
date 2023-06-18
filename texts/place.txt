@@ -1,0 +1,7 @@
+Der Kurs [Titel] findet zu folgenden Zeiten statt:
+
+- Liste mit Kursdaten und Orten
+
+Hier gelangst du zur [ILIAS Lernumgebung]().
+
+🔃 Mit /start kommst du wieder an den Anfang zurück!
