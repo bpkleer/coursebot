@@ -4,12 +4,12 @@ FROM rocker/tidyverse:latest
 RUN mkdir -p /telegramBot
 
 ## copy files
-COPY /telegramBot/install.R /telegramBot/install.R
-COPY /telegramBot/init.R /telegramBot/init.R
-COPY /telegramBot/texts /telegramBot/texts
-COPY /telegramBot/keys /telegramBot/keys
+COPY /coursebot/install.R /coursebot/install.R
+COPY /coursebot/init.R /coursebot/init.R
+COPY /coursebot/texts /coursebot/texts
+COPY /coursebot/keys /coursebot/keys
 COPY .Renviron .Renviron
 
 ## install R-packages
-RUN Rscript /telegramBot/install.R
-CMD Rscript /telegramBot/init.R
+RUN Rscript /coursebot/install.R
+CMD Rscript /coursebot/init.R
